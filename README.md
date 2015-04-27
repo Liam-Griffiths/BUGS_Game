@@ -20,5 +20,20 @@ Developing a polished version of a prototype game.
 
 **Options Menu** - Options such as, sounds on/off, effects on off. Link to the GameManager global object, please.
 
-**Unit Selection Page** - Page with the currently unlocked units, UI images for unlocked units and locked units. Ability to select 3 unit types to take into battle.
+**Unit Selection Page** - Page with the currently unlocked units, UI images for unlocked units and locked units. Ability to select 3 unit types to take into battle. http://docs.unity3d.com/ScriptReference/PlayerPrefs.html Store the data.
 
+## Programming
+
+**Reimplement Core Features** - Take prototype features, tilting, unit placement/spawning etc. Rebuild.
+
+**Unit selection etc** - Selection UI and Cooldown.
+
+**Unit AI** - Unit and Castle health, shooting, damage etc.
+
+**Other** - Particles, sounds, etc.
+
+## Other
+
+**Facebook** - Facebook score share, and invite to game. Clean code.
+
+**Ad Support** - Ad splashscreen, also a pop under ad in the menu.
