@@ -16,7 +16,7 @@ Developing a polished version of a prototype game.
 
 ## UI
 
-**Menu Scene** - Tasteful minimalist UI buttons. USING THE NEW UI SYSTEM.Do NOT use OnGui(), the penalty is death.
+**Menu Scene** - Tasteful, minimalist UI buttons. USING THE NEW UI SYSTEM. DO NOT use OnGui(), the penalty is death.
 
 **Options Menu** - Options such as, sounds on/off, effects on off. Link to the GameManager global object, please.
 
