@@ -9,7 +9,7 @@ public class TerrainTilt : MonoBehaviour
 	public List<UnitController> ControllersLeft;
 	public List<UnitController> ControllersRight;
 
-	private float totalWeight;
+	public float totalWeight;
 
 
 	void Start()
@@ -53,7 +53,7 @@ public class TerrainTilt : MonoBehaviour
 			totalWeight += UnitArrayRight[i].GetComponent<UnitController>().weight;
 		}
 
-		Quaternion newRot = Quaternion.Euler(-totalWeight + 0, 180, 0);
+		Quaternion newRot = Quaternion.Euler(0, 180, -totalWeight + 0);
 		gameObject.transform.rotation = Quaternion.Lerp (gameObject.transform.rotation, newRot, 0.1f);
 
 		//Debug.Log (totalWeight);

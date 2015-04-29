@@ -1,5 +1,9 @@
 Base path: C:/Program Files/Unity/Editor/Data
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-5756
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-6852
+>>>>>>> 3b7ea09ab19144dbc0a6633a3839d02968ab2a30
 Cmd: getPlatforms
 Cmd: compileSnippet
   api=4 type=0 insize=751 outsize=3517 kw=SHADOWS_DEPTH ok=1
