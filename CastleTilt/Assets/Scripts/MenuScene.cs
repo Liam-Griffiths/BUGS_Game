@@ -17,7 +17,7 @@ public class MenuScene : MonoBehaviour {
 	}
 
 	public void LoadGame(){
-		Application.LoadLevel("GameScene");
+		Application.LoadLevel("BattleSelectScene");
 	}
 
 	public void LoadCredits(){
