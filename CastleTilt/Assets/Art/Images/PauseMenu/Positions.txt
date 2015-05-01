@@ -1,0 +1,7 @@
+Pause Button
+	X: 0.94
+	Y: 0.09
+
+Pause Menu
+	X: 0.5
+	Y: 0.8

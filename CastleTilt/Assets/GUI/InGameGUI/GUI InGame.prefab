@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &160732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 498298}
+  - 114: {fileID: 11425060}
+  m_Layer: 0
+  m_Name: GUI InGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498298
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11425060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0b00d03ded0fc449213ca6767a9624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  small_Active: {fileID: 2800000, guid: 913133fb0076c2e48909d7307e6477d7, type: 3}
+  small_Selected: {fileID: 2800000, guid: a98cd5765ea7531499cb7971e5e7b1b9, type: 3}
+  small_Unavailable: {fileID: 2800000, guid: b6a1880c8de3e2a468fb600970878404, type: 3}
+  medium_Active: {fileID: 2800000, guid: 3c0fd5db801852342a9a4b6291bb6177, type: 3}
+  medium_Selected: {fileID: 2800000, guid: d40232d9c0f74b34c91efeae7e30043a, type: 3}
+  medium_Unavailable: {fileID: 2800000, guid: 9f2acf844b6a2a247991c9fb2786a8f2, type: 3}
+  heavy_Active: {fileID: 2800000, guid: e934fe1b46cee5d43b76d99bf070fe7e, type: 3}
+  heavy_Selected: {fileID: 2800000, guid: 04cfff228bc56c74f8c0146622f4dc3a, type: 3}
+  heavy_Unavailable: {fileID: 2800000, guid: 77bf85794e39f4547842e81d6c7b2eb1, type: 3}
+  cooldown_load: {fileID: 2800000, guid: ce14b0a328afc2d4ead4e203313b183a, type: 3}
+  buttonScaleFactor: .0700000003
+  button_spacing: 7
+  heavyCooldown: 12
+  mediumCooldown: 8
+  smallCooldown: 2
+  current_unit: 0
+  touchPosition: {x: 0, y: 0}
+  touch_Range: .5
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 160732}
+  m_IsPrefabParent: 1
